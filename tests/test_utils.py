@@ -118,5 +118,5 @@ def test_filter_transactions_by_date(sample_transactions: pd.DataFrame) -> None:
     # Проверка количества отфильтрованных транзакций
     assert len(filtered_df) == 3, "Должно быть три транзакции за ноябрь 2024"
 
-    ##Проверка содержимого DataFrame
+    #Проверка содержимого DataFrame
     assert_frame_equal(filtered_df.reset_index(drop=True), expected_df)
