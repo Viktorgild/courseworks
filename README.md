@@ -29,7 +29,7 @@
 ## Установка:
 1. Клонируйте репозиторий:
 ```
-https://github.com/Viktorgild/Projekt
+https://github.com/Viktorgild/coutseworks
 ```
 2. Установите зависимости:
 ```
